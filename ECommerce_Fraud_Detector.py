@@ -14,7 +14,9 @@ try:
     image = Image.open(os.path.join('ecommerce-new-banner.jpg'))
     st.image(image)
 
-    data = pd.read_csv("C:\\Users\Anurag Sen\Desktop\Ecommerce Fraud dataset.csv")
+    
+    urlfile = 'https://res.cloudinary.com/dqlh9q2iv/raw/upload/v1615033597/samples/Ecommerce_Fraud_dataset_ryx7ka.csv'
+    data = pd.read_csv(urlfile, sep=",")
     data.drop(['Unnamed: 0'],axis=1,inplace=True)
 
     st.title('E-Commerce Fraud Detection')
