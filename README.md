@@ -1,6 +1,6 @@
 # E-Commerce Fraud Predictor web app
 
-web-link: https://e-commerce-fraud-predictor.herokuapp.com/
+web-link: https://ecommerce-fraud-predictor.herokuapp.com/
 
 
 
